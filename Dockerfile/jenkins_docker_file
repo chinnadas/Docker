@@ -14,4 +14,4 @@ RUN mv apache-maven-3.6.3/* .
 ENV M2_HOME=/opt/maven
 ENV M2=/opt/maven/bin
 ENV PATH=$PATH:$M2_HOME:$M2
-CMD["service", "jenkins", "start"]
+CMD ["service", "jenkins", "start"]
